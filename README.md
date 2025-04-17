@@ -47,3 +47,5 @@
 ```bash
 kubectl apply -f k8s-deployment.yaml
 minikube service student-id-service
+sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 30080 -j DNAT --to 192.168.49.2:30080
+sudo iptables -A FORWARD -p tcp -d 192.168.49.2 --dport 30080 -j ACCEPT
