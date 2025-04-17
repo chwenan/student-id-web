@@ -26,7 +26,7 @@
 
 ## 🚀 網頁連結
 
-[http://你的EC2-PUBLIC-IP:30080](http://你的http://3.106.216.176/:30080)
+[http://3.106.216.176:30080](http://你的http://3.106.216.176/:30080)
 
 ## 📁 檔案說明
 
@@ -40,7 +40,7 @@
 
 ## 🐳 Docker Hub 映像
 
-[https://hub.docker.com/r/wenan1234/student-id-web](https://hub.docker.com/r/wenan1234/student-id-web)
+[https://hub.docker.com/repository/docker/wenan1234/student-id-web/general](https://hub.docker.com/repository/docker/wenan1234/student-id-web/general)
 
 ## ☸️ Kubernetes 使用說明
 
